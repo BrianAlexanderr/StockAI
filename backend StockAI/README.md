@@ -98,11 +98,22 @@ Response (contoh):
 ## 📊 Struktur Folder
 ```
 backend StockAI/
-│── models/          # Model Chronos
-│── data/            # Dataset & hasil prediksi
-│── main.py          # Entry utama FastAPI
-│── requirements.txt
-│── README.md
+backend StockAI/
+├── pycache/ # Compiled Python cache
+├── modeling StockAI/ # Modeling and data science files
+│ ├── AutogluonModels/ # AutoGluon trained models
+│ │ └── ag-20250909_085908/ # Example training run folder
+│ ├── dataset/ # Raw and processed datasets
+│ └── forecast_result/ # Forecasting output results
+│ ├──  daftar_saham.csv # Stock list CSV
+│ ├── stocks_with_names.csv # Stock names with metadata
+│ ├── test.ipynb # Testing notebook
+│ ├── training_models.ipynb # Model training notebook
+├── .gitattributes # Git LFS tracking configuration
+├── README.md # Project documentation
+├── main.py # FastAPI backend entry point
+├── requirements.txt # Python dependencies
+└── stocks_with_names.csv # Duplicate stock names CSV
 ```
 
 ---
