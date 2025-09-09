@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+autogluon
+torch
+scikit-learn
+numpy
+python-dotenv
+matplotlib
