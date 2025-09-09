@@ -56,6 +56,7 @@ GET /stocks
 Body (contoh):
 ```json
 {
+  {
     "Kode": "AALI",
     "Nama Perusahaan": "Astra Agro Lestari Tbk."
   },
