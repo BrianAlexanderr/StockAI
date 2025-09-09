@@ -98,7 +98,6 @@ Response (contoh):
 ## 📊 Struktur Folder
 ```
 backend StockAI/
-backend StockAI/
 ├── pycache/ # Compiled Python cache
 ├── modeling StockAI/ # Modeling and data science files
 │ ├── AutogluonModels/ # AutoGluon trained models
