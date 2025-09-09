@@ -10,6 +10,7 @@ Aplikasi ini menggunakan model **Chronos** yang sudah di-*fine-tune* dengan data
 StockAI/
 │── frontend StockAI/   # Sisi interface / UI berbasis React
 │── backend StockAI/    # AI modeling & API berbasis FastAPI
+│── .gitattributes      # Tells GitHub which file is consider large   
 │── README.md           # Dokumentasi utama
 ```
 
