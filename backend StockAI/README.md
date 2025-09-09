@@ -86,9 +86,9 @@ Response (contoh):
 {
   "stock": "BBCA",
   "predictions": [
-    {"timestamp": "2023-01-01", "close": 8500.12},
-    {"timestamp": "2023-01-02", "close": 8512.45},
-    {"timestamp": "2023-01-03", "close": 8499.80}
+    {"timestamp": "2023-01-01", "mean": 8500.12},
+    {"timestamp": "2023-01-02", "mean": 8512.45},
+    {"timestamp": "2023-01-03", "mean": 8499.80}
   ]
 }
 ```
