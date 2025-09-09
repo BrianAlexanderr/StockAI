@@ -45,7 +45,7 @@ Frontend akan berjalan di `http://localhost:5173` (atau sesuai konfigurasi Vite)
 
 ---
 
-## 🛠️ Struktur Folder
+## 🛠️ General Struktur Folder
 ```
 frontend StockAI/
 │── src/
