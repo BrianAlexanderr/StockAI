@@ -48,13 +48,22 @@ Backend akan berjalan di `http://127.0.0.1:8000`
 
 ## 📡 Endpoint Utama
 
-### 🔹 Health Check
+###  Display All Stocks
 ```http
-GET /health
+GET /stocks
 ```
-Response:
+
+Body (contoh):
 ```json
-{ "status": "ok" }
+{
+    "Kode": "AALI",
+    "Nama Perusahaan": "Astra Agro Lestari Tbk."
+  },
+  {
+    "Kode": "ABBA",
+    "Nama Perusahaan": "Mahaka Media Tbk."
+  }
+}
 ```
 
 ### 🔹 Forecast
